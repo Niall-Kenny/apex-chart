@@ -1,0 +1,65 @@
+/* /* .venue-grid_container {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 1rem;
+
+}
+
+.venue-grid_item {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+/* box-shadow: 0px 3px 22px -12px #607D8B; */
+/* font-size: 30px;
+    overflow: hidden;
+}
+
+.venue-grid_container .j {
+    grid-row: 1 / 3;
+    grid-column: 1 / 10;
+}
+
+.venue-grid_container .radial {
+    grid-column: 10 / 13;
+    grid-row: 1/3;
+
+}
+
+.venue-grid_container .dsbrd-graph_row1-item-graph-radial {
+    width: 100%;
+} */
+/* 
+.main {
+    margin-right: 1rem;
+}  */
+.venue-grid_container {
+  width: 100%;
+  height: 100%;
+}
+
+.venue-row {
+  width: 100%;
+  height: 17rem;
+  overflow: hidden;
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+
+.scatter {
+  width: 70%;
+  background-color: blue;
+}
+
+.radial {
+  width: 20%;
+}
+
+.venue-grid_container .apexcharts-canvas {
+  padding: 0;
+}
+
+.venue-grid_item {
+  overflow: hidden;
+}
+
+.venue-grid_container .apexcharts-canvas {
+}
